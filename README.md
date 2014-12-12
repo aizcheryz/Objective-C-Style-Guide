@@ -527,19 +527,54 @@ if (error) {
 - [PAPreferences](https://github.com/dhennessy/PAPreferences)
 
 **UI**
+
+**IntroductionView**
+- [EAIntroView](https://github.com/ealeksandrov/EAIntroView)
+
 **Dissmiss Keyboard**
 - [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding)
+
+**SwipeableTableViewCell**
+- [SWTableViewCell](https://github.com/CEWendel/SWTableViewCell)
+
 **ProgressView**
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 - [CDActivityIndicatorView](https://github.com/cncool/CDActivityIndicatorView)
+
 **WebImageView**
 - [SDWebImage](https://github.com/rs/SDWebImage)
 - [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+- [AsyncImageView](https://github.com/nicklockwood/AsyncImageView)
+
 **ActionSheet**
 - [SimplzActionSheet](https://github.com/aizcheryz/SimplzActionSheet)
 - [IBActionSheet](https://github.com/ianb821/IBActionSheet)
+
+**Toast**
+- [CRToast](https://github.com/cruffenach/CRToast)
+
 **Label**
 - [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)
+
+**TextView**
+- [SZTextView](https://github.com/glaszig/SZTextView)
+- [ACEExpandableTextCell](https://github.com/acerbetti/ACEExpandableTextCell)
+
+**Markdown**
+- [MMMarkdown](https://github.com/mdiep/MMMarkdown)
+
+**Tag**
+- [DWTagList](https://github.com/domness/DWTagList)
+
+**Crop Photo**
+- [PEPhotoCropEditor](https://github.com/kishikawakatsumi/PEPhotoCropEditor)
+
+**QRCode Scanner**
+- [TFBarcodeScanner](https://github.com/thefind/TFBarcodeScanner)
+
+**constraint**
+- [AutoLayout](https://github.com/smileyborg/UIView-AutoLayout)
+- [UpdateAutoLayoutConstraints](https://github.com/damienromito/UIView-UpdateAutoLayoutConstraints)
 
 ## Reference
 - [NYTimes](https://github.com/NYTimes/objective-c-style-guide)

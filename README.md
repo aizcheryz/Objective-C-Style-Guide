@@ -1,5 +1,4 @@
 # Objective-C-Style-Guide
-=======================
 Objective-C Style Guide for iOS Development.
 
 ## Table of Contents
@@ -93,6 +92,8 @@ static CGFloat const XYZFooFloatConstant = 1234.5;
 
 #pragma mark - IBActions
 - (IBAction)submitData:(id)sender {}
+- (IBAction)storeNameTextFieldOnChange:(id)sender;
+- (IBAction)storeSubmitButtonOnTouch:(id)sender;
 - (void)foobarButtonOnTouch;
 - (void)foobarSwitchOnChange;
 
@@ -115,4 +116,58 @@ static CGFloat const XYZFooFloatConstant = 1234.5;
 #pragma mark - UITableViewDelegate
 ...
 
+```
+
+### Header Prefix
+
+Adding frameworks that are used in the majority of a project to a header prefix is preferred. If these frameworks are in the header prefix, they should **never** be imported in source files in the project.
+
+For example, if a header prefix looks like the following:
+
+```objective-c
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <QuartzCore/QuartzCore.h>
+    ...
+    #import <GlobalAPIController/GlobalAPIController.h>
+#endif
+```
+
+## Comments
+
+When they are needed, comments should be used to explain a function or **why** a particular piece of code does something.
+```objective-c
+
+/*
+ * Function for what
+ * Parameters	: @[Parameters 1, Parameters 2, Parameters 3, ...]
+ * Return		: ...
+ */
+
+```
+
+## Property Attributes
+
+Property attributes should be explicitly listed, and will help new programmers when reading the code.  The order of properties should be storage then atomicity, which is consistent with automatically generated code when connecting UI elements from Interface Builder.
+
+**Preferred:**
+
+```objc
+@interface StoreController ()
+
+@property (strong, nonatomic) NSString *storeName;
+@property (weak, nonatomic) IBOutlet UIView *emptyView;
+@property (weak, nonatomic) IBOutlet UIView *listView;
+@end
+```
+
+**Not Preferred:**
+
+```objc
+@property (nonatomic, weak) IBOutlet UIView *emptyView;
+@property (nonatomic) NSString *storeName;
+
+@property (nonatomic) NSString *storeName;
+@property (nonatomic, weak) IBOutlet UIView *emptyView;
 ```

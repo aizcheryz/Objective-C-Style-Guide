@@ -308,7 +308,7 @@ NSNumber *shouldUseLiterals = [NSNumber numberWithBool:YES];
 NSNumber *buildingZIPCode = [NSNumber numberWithInteger:65139];
 ```
 
-## init and dealloc
+## Init and Dealloc
 
 `dealloc` methods should be placed at the top of the implementation, directly after the `@synthesize` and `@dynamic` statements. `init` should be placed directly below the `dealloc` methods of any class.
 
@@ -515,23 +515,17 @@ if (error) {
 
 ## 3rd Party Libraries
 **Networking**
-https://github.com/AFNetworking/AFNetworking
+- [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
 **JSON Serialize**
-https://github.com/icanzilb/JSONModel
+- [JSONModel](https://github.com/icanzilb/JSONModel)
 
 **Core Data**
-https://github.com/magicalpanda/MagicalRecord
+- [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
 **UI**
-- Keyboard avoiding :
-https://github.com/michaeltyson/TPKeyboardAvoiding
-- Progress Loading :
-https://github.com/jdg/MBProgressHUD
-- WebImageView :
-https://github.com/rs/SDWebImage
-https://github.com/kevinrenskers/SDWebImage-ProgressView
-- ActionSheet :
-https://github.com/aizcheryz/SimplzActionSheet
-- Label :
-https://github.com/mattt/TTTAttributedLabel
+- [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding)
+- [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+- [SDWebImage](https://github.com/rs/SDWebImage) [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+- [SimplzActionSheet](https://github.com/aizcheryz/SimplzActionSheet)
+- [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)

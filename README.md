@@ -7,7 +7,6 @@ Objective-C Style Guide for iOS Development.
 * [Header Prefix](#header-prefix)
 * [Comments](#comments)
 * [Property Attribute](#property-attribute)
-* [Private Property](#private-property)
 * [Naming](#naming)
 * [Naming Underscore](#naming-underscore)
 * [Image Naming](#image-naming)
@@ -145,6 +144,13 @@ When they are needed, comments should be used to explain a function or **why** a
  * Return		: ...
  */
 
+- (NSMutableArray *)getLastUpdateData:(NSDate *)updatedAt {
+
+	// comparing data from server
+	...
+}
+
+
 ```
 
 ## Property Attributes
@@ -171,3 +177,39 @@ Property attributes should be explicitly listed, and will help new programmers w
 @property (nonatomic) NSString *storeName;
 @property (nonatomic, weak) IBOutlet UIView *emptyView;
 ```
+
+## Naming
+
+Keep naming variable or function name consistent.
+**Preferred:**
+
+```objc
+
+UIButton *settingsButton;
+- (void)loadView;
+- (UINavigationItem *)navigationItem;
++ (UILabel *)labelWithText:(NSString *)text;
+_storeName;
+
+```
+
+**Not Preferred:**
+
+```objc
+
+UIButton *settBut;
+- (void)LoadView;
+- (UINavigationItem *)navItem;
++ (UILabel *)labelText:(NSString *)text;
+_Storename;
+
+```
+
+## Underscores
+
+When using properties, instance variables should always be accessed and mutated using `self.`. This means that all properties will be visually distinct, as they will all be prefaced with `self.`. 
+
+An exception to this: inside initializers, the backing instance variable (i.e. _variableName) should be used directly to avoid any potential side effects of the getters/setters.
+
+Local variables should not contain underscores.
+

@@ -529,3 +529,11 @@ if (error) {
 - [SDWebImage](https://github.com/rs/SDWebImage) [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
 - [SimplzActionSheet](https://github.com/aizcheryz/SimplzActionSheet)
 - [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)
+
+## Reference
+- [NYTimes](https://github.com/NYTimes/objective-c-style-guide)
+- [Ray Webderlich](github.com/raywenderlich/objective-c-style-guide)
+- [Future Ice](https://github.com/futurice/ios-good-practices)
+- [Soffes](https://gist.github.com/soffes/812796);
+
+# Thank you

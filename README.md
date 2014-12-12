@@ -6,25 +6,25 @@ Objective-C Style Guide for iOS Development.
 * [Code Structure](#code-structure)
 * [Header Prefix](#header-prefix)
 * [Comments](#comments)
-* [Property Attribute](#property-attribute)
+* [Property Attributes](#property-attributes)
 * [Naming](#naming)
-* [Naming Underscore](#naming-underscore)
-* [Constant](#constant)
-* [Enumerated Type](#enumerated-type)
-* [Variable](#variable)
+* [Naming Underscores](#naming-underscores)
+* [Constants](#constants)
+* [Enumerated Types](#enumerated-types)
+* [Variables](#variables)
 * [Variable Literals](#variable-Literals)
 * [Init Methods](#init-methods)
 * [Constructor Methods](#constructor-methods)
 * [Dot-Notation Syntax](#dot-notation-syntax)
 * [Operators](#operators)
-* [Conditional](#conditional)
+* [Conditionals](#conditionals)
 	* [If](#if)
 	* [Switch](#switch)
 * [Iteration](#iteration)
 	* [For](#for)
 	* [While](#while)
 * [Error Handling](#error-handling)
-* [Singleton](#singleton)
+* [Singletons](#singletons)
 * [3rd Party Libraries](#3rd-party-libraries)
 * [Reference](#reference)
 
@@ -206,7 +206,7 @@ _Storename;
 
 ```
 
-## Underscores
+## Naming Underscores
 
 When using properties, instance variables should always be accessed and mutated using `self.`. This means that all properties will be visually distinct, as they will all be prefaced with `self.`. 
 
@@ -308,7 +308,7 @@ NSNumber *shouldUseLiterals = [NSNumber numberWithBool:YES];
 NSNumber *buildingZIPCode = [NSNumber numberWithInteger:65139];
 ```
 
-## Init and Dealloc
+## Init Methods
 
 `dealloc` methods should be placed at the top of the implementation, directly after the `@synthesize` and `@dynamic` statements. `init` should be placed directly below the `dealloc` methods of any class.
 
@@ -323,7 +323,7 @@ NSNumber *buildingZIPCode = [NSNumber numberWithInteger:65139];
     return self;
 }
 ```
-## Class Constructor Methods
+## Constructor Methods
 
 Where class constructor methods are used, these should always return type of 'instancetype' and never 'id'. This ensures the compiler correctly infers the result type. 
 
@@ -572,7 +572,7 @@ if (error) {
 **QRCode Scanner**
 - [TFBarcodeScanner](https://github.com/thefind/TFBarcodeScanner)
 
-**constraint**
+**Constraint**
 - [AutoLayout](https://github.com/smileyborg/UIView-AutoLayout)
 - [UpdateAutoLayoutConstraints](https://github.com/damienromito/UIView-UpdateAutoLayoutConstraints)
 
@@ -581,5 +581,6 @@ if (error) {
 - [Ray Webderlich](github.com/raywenderlich/objective-c-style-guide)
 - [Future Ice](https://github.com/futurice/ios-good-practices)
 - [Soffes](https://gist.github.com/soffes/812796);
+- [MontazzeStudio](https://github.com/MontazzeStudio/ios-template)
 
 # Thank you

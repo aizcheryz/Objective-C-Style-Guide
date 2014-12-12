@@ -523,11 +523,22 @@ if (error) {
 **Core Data**
 - [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 
+**Session**
+- [PAPreferences](https://github.com/dhennessy/PAPreferences)
+
 **UI**
+**Dissmiss Keyboard**
 - [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding)
+**ProgressView**
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
-- [SDWebImage](https://github.com/rs/SDWebImage) [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+- [CDActivityIndicatorView](https://github.com/cncool/CDActivityIndicatorView)
+**WebImageView**
+- [SDWebImage](https://github.com/rs/SDWebImage)
+- [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+**ActionSheet**
 - [SimplzActionSheet](https://github.com/aizcheryz/SimplzActionSheet)
+- [IBActionSheet](https://github.com/ianb821/IBActionSheet)
+**Label**
 - [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)
 
 ## Reference

@@ -555,6 +555,7 @@ if (error) {
 
 **Label**
 - [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)
+- [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField)
 
 **TextView**
 - [SZTextView](https://github.com/glaszig/SZTextView)
@@ -580,7 +581,7 @@ if (error) {
 - [NYTimes](https://github.com/NYTimes/objective-c-style-guide)
 - [Ray Webderlich](github.com/raywenderlich/objective-c-style-guide)
 - [Future Ice](https://github.com/futurice/ios-good-practices)
-- [Soffes](https://gist.github.com/soffes/812796);
+- [Soffes](https://gist.github.com/soffes/812796)
 - [MontazzeStudio](https://github.com/MontazzeStudio/ios-template)
 
 # Thank you

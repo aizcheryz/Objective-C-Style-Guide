@@ -162,16 +162,16 @@ Property attributes should be explicitly listed, and will help new programmers w
 ```objc
 @interface StoreController ()
 
-@property (strong, nonatomic) NSString *storeName;
-@property (weak, nonatomic) IBOutlet UIView *emptyView;
-@property (weak, nonatomic) IBOutlet UIView *listView;
+@property (nonatomic, strong) NSString *storeName;
+@property (nonatomic, weak) IBOutlet UIView *emptyView;
+@property (nonatomic, weak) IBOutlet UIView *listView;
 @end
 ```
 
 **Not Preferred:**
 
 ```objc
-@property (nonatomic, weak) IBOutlet UIView *emptyView;
+@property (weak, nonatomic) IBOutlet UIView *emptyView;
 @property (nonatomic) NSString *storeName;
 
 @property (nonatomic) NSString *storeName;

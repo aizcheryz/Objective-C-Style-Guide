@@ -556,6 +556,9 @@ if (error) {
 **Toast**
 - [CRToast](https://github.com/cruffenach/CRToast)
 
+**Form**
+- [XLForm](https://github.com/xmartlabs/XLForm)
+
 **Label**
 - [TTTAttributedLabel](https://github.com/mattt/TTTAttributedLabel)
 - [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField)

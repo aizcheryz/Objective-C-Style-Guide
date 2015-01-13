@@ -531,6 +531,9 @@ if (error) {
 **IntroductionView**
 - [EAIntroView](https://github.com/ealeksandrov/EAIntroView)
 
+**Empty State**
+- [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)
+
 **Dissmiss Keyboard**
 - [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding)
 
@@ -547,6 +550,7 @@ if (error) {
 **WebImageView**
 - [SDWebImage](https://github.com/rs/SDWebImage)
 - [SDWebImage-ProgressView](https://github.com/kevinrenskers/SDWebImage-ProgressView)
+- [UIActivityIndicator-for-SDWebImage](https://github.com/JJSaccolo/UIActivityIndicator-for-SDWebImage)
 - [AsyncImageView](https://github.com/nicklockwood/AsyncImageView)
 
 **ActionSheet**
